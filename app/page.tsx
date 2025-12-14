@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,7 +14,9 @@ export default function Home() {
       </div>
       <div className="flex flex-col text-white items-center justify-center w-full h-full z-10 gap-10 bg-black/30 ">
         <h1 className="text-6xl md:text-9xl">Tomplania</h1>
-        <a className="text-4xl md:text-6xl cursor-pointer">Start</a>
+        <Link href="/Character" className="text-4xl md:text-6xl cursor-pointer">
+          Start
+        </Link>
       </div>
     </div>
   );
