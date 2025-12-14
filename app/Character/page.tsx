@@ -64,9 +64,12 @@ const CharacterCreation = () => {
         />
       </div>
       <div className="w-full flex justify-center text-4xl">
-        <button className="border border-white px-10 py-2 hover:bg-white/20 cursor-pointer">
+        <Link
+          href="/intro"
+          className="border border-white px-10 py-2 hover:bg-white/20 cursor-pointer"
+        >
           Start Game
-        </button>
+        </Link>
       </div>
     </div>
   );
